@@ -11,7 +11,7 @@ const immutable = createMiddleware(async (c, next) => {
 });
 
 const app = createApp({
-	middleware: [etag, immutable, serveStatic({ root: "./dist/client" })],
+	middleware: [etag(), immutable, serveStatic({ root: "./dist/client" })],
 });
 
 Deno.serve(app.fetch);
