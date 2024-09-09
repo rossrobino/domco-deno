@@ -1,0 +1,14 @@
+{
+	"tasks": {
+		"dev": "deno run -A npm:vite",
+		"check": "deno check src/",
+		"build": "deno run -A npm:vite build",
+		"preview": "deno run -A npm:vite preview"
+	},
+	"nodeModulesDir": true,
+	"imports": {
+		"domco": "npm:domco@latest",
+		"hono": "npm:hono@latest",
+		"vite": "npm:vite@latest"
+	}
+}
