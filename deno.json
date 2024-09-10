@@ -7,8 +7,8 @@
 	},
 	"nodeModulesDir": true,
 	"imports": {
-		"domco": "npm:domco@latest",
-		"hono": "npm:hono@latest",
-		"vite": "npm:vite@latest"
+		"domco": "npm:domco@0.11.0",
+		"hono": "npm:hono@4.5.11",
+		"vite": "npm:vite@5.4.3"
 	}
 }

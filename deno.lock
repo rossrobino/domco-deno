@@ -2,10 +2,9 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:domco@latest": "npm:domco@0.10.0_hono@4.5.11_vite@5.4.3",
-      "npm:hono@latest": "npm:hono@4.5.11",
-      "npm:vite": "npm:vite@5.4.3",
-      "npm:vite@latest": "npm:vite@5.4.3"
+      "npm:domco@0.11.0": "npm:domco@0.11.0_hono@4.5.11_vite@5.4.3",
+      "npm:hono@4.5.11": "npm:hono@4.5.11",
+      "npm:vite@5.4.3": "npm:vite@5.4.3"
     },
     "npm": {
       "@esbuild/aix-ppc64@0.21.5": {
@@ -168,8 +167,8 @@
         "integrity": "sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==",
         "dependencies": {}
       },
-      "domco@0.10.0_hono@4.5.11_vite@5.4.3": {
-        "integrity": "sha512-OYdWwKz92WKDZo428iSII4ESqpoZKmCsw2FP8Q1Sqt39etErgwrj9e4ifqRCKjG5XUlMKVQ2hkUGLOe9xnHqoA==",
+      "domco@0.11.0_hono@4.5.11_vite@5.4.3": {
+        "integrity": "sha512-Eqw9Z1fcgVmAKsIXCc0LY1YAshXO0V0eS4e12Xup97/2cf8WUoqgyxAf7X9n3hFdpKmmtIVt25+muRJVUMuJjw==",
         "dependencies": {
           "hono": "hono@4.5.11",
           "vite": "vite@5.4.3"
@@ -268,9 +267,9 @@
   "remote": {},
   "workspace": {
     "dependencies": [
-      "npm:domco@latest",
-      "npm:hono@latest",
-      "npm:vite@latest"
+      "npm:domco@0.11.0",
+      "npm:hono@4.5.11",
+      "npm:vite@5.4.3"
     ]
   }
 }
