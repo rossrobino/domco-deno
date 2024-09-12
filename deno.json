@@ -1,14 +1,29 @@
 {
+	"version": "0.0.0",
 	"tasks": {
 		"dev": "deno run -A npm:vite",
 		"check": "deno check src/",
 		"build": "deno run -A npm:vite build",
-		"preview": "deno run -A npm:vite preview"
+		"preview": "deno run -A npm:vite preview",
+		"format": "deno run -A npm:prettier --write ."
 	},
 	"nodeModulesDir": true,
 	"imports": {
-		"domco": "npm:domco@0.11.0",
-		"hono": "npm:hono@4.5.11",
-		"vite": "npm:vite@5.4.3"
+		"domco": "npm:domco@^0.12.0",
+		"hono": "npm:hono@^4.6.1",
+		"prettier": "npm:prettier@^3.3.3",
+		"prettier-plugin-tailwindcss": "npm:prettier-plugin-tailwindcss@^0.6.6",
+		"tailwindcss": "npm:tailwindcss@^3.4.11",
+		"autoprefixer": "npm:autoprefixer@^10.4.20",
+		"vite": "npm:vite@^5.4.3"
+	},
+	"compilerOptions": {
+		"checkJs": true,
+		"jsx": "react-jsx",
+		"jsxImportSource": "hono/jsx",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true
 	}
 }
