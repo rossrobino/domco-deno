@@ -4,14 +4,10 @@
     "specifiers": {
       "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:autoprefixer@^10.4.20": "npm:autoprefixer@10.4.20_postcss@8.4.45",
-      "npm:domco@^0.12.0": "npm:domco@0.12.0_hono@4.6.1_vite@5.4.4",
-      "npm:hono@^4.6.1": "npm:hono@4.6.1",
-      "npm:prettier": "npm:prettier@3.3.3",
-      "npm:prettier-plugin-tailwindcss": "npm:prettier-plugin-tailwindcss@0.6.6_prettier@3.3.3",
-      "npm:prettier@^3.3.3": "npm:prettier@3.3.3",
-      "npm:tailwindcss@^3.4.11": "npm:tailwindcss@3.4.11_postcss@8.4.45",
+      "npm:domco@^0.13.0": "npm:domco@0.13.0_vite@5.4.4",
+      "npm:tailwindcss@^3.4.11": "npm:tailwindcss@3.4.12_postcss@8.4.45",
       "npm:vite": "npm:vite@5.4.4",
-      "npm:vite@^5.4.3": "npm:vite@5.4.4"
+      "npm:vite@^5.4.6": "npm:vite@5.4.6_@types+node@18.16.19"
     },
     "npm": {
       "@alloc/quick-lru@5.2.0": {
@@ -311,7 +307,7 @@
         "integrity": "sha512-btwCFJVjI4YWDNfau8RhZ+B1Q/VLoUITrm3RlP6y1tYGWIOa+InuYiRGXUBXo8nA1qKmHMyLB/iVQg5TT4eFoA==",
         "dependencies": {
           "caniuse-lite": "caniuse-lite@1.0.30001660",
-          "electron-to-chromium": "electron-to-chromium@1.5.20",
+          "electron-to-chromium": "electron-to-chromium@1.5.25",
           "node-releases": "node-releases@2.0.18",
           "update-browserslist-db": "update-browserslist-db@1.1.0_browserslist@4.23.3"
         }
@@ -371,10 +367,9 @@
         "integrity": "sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==",
         "dependencies": {}
       },
-      "domco@0.12.0_hono@4.6.1_vite@5.4.4": {
-        "integrity": "sha512-4T0GAbhWVCuonhAYbFK8aNYt27GPWJflGnRy31oJ5Esm59brNhhLDBKKEAwtJX3x6e7D0glZM8asjOl6PxaXoQ==",
+      "domco@0.13.0_vite@5.4.4": {
+        "integrity": "sha512-iwAAD6DueDNzVXETA1NMi7HNjYnLp1sFB8D2GjgLDw5b8iHrtaPkpg7Wip0yDvJD97hDPZZ4CYtoBr1HzSXocQ==",
         "dependencies": {
-          "hono": "hono@4.6.1",
           "vite": "vite@5.4.4"
         }
       },
@@ -382,8 +377,8 @@
         "integrity": "sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==",
         "dependencies": {}
       },
-      "electron-to-chromium@1.5.20": {
-        "integrity": "sha512-74mdl6Fs1HHzK9SUX4CKFxAtAe3nUns48y79TskHNAG6fGOlLfyKA4j855x+0b5u8rWJIrlaG9tcTPstMlwjIw==",
+      "electron-to-chromium@1.5.25": {
+        "integrity": "sha512-kMb204zvK3PsSlgvvwzI3wBIcAw15tRkYk+NQdsjdDtcQWTp2RABbMQ9rUBy8KNEOM+/E6ep+XC3AykiWZld4g==",
         "dependencies": {}
       },
       "emoji-regex@8.0.0": {
@@ -495,10 +490,6 @@
         "dependencies": {
           "function-bind": "function-bind@1.1.2"
         }
-      },
-      "hono@4.6.1": {
-        "integrity": "sha512-6NGwvttY1+HAFii08VYiEKI6ETPAFbpLntpm2M/MogEsAFWdZV74UNT+2M4bmqX90cIQhjlpBSP+tO+CfB0uww==",
-        "dependencies": {}
       },
       "is-binary-path@2.1.0": {
         "integrity": "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==",
@@ -699,16 +690,6 @@
           "source-map-js": "source-map-js@1.2.1"
         }
       },
-      "prettier-plugin-tailwindcss@0.6.6_prettier@3.3.3": {
-        "integrity": "sha512-OPva5S7WAsPLEsOuOWXATi13QrCKACCiIonFgIR6V4lYv4QLp++UXVhZSzRbZxXGimkQtQT86CC6fQqTOybGng==",
-        "dependencies": {
-          "prettier": "prettier@3.3.3"
-        }
-      },
-      "prettier@3.3.3": {
-        "integrity": "sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==",
-        "dependencies": {}
-      },
       "queue-microtask@1.2.3": {
         "integrity": "sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==",
         "dependencies": {}
@@ -828,8 +809,8 @@
         "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
         "dependencies": {}
       },
-      "tailwindcss@3.4.11_postcss@8.4.45": {
-        "integrity": "sha512-qhEuBcLemjSJk5ajccN9xJFtM/h0AVCPaA6C92jNP+M2J8kX+eMJHI7R2HFKUvvAsMpcfLILMCFYSeDwpMmlUg==",
+      "tailwindcss@3.4.12_postcss@8.4.45": {
+        "integrity": "sha512-Htf/gHj2+soPb9UayUNci/Ja3d8pTmu9ONTfh4QY8r3MATTZOzmv6UYWF7ZwikEIC8okpfqmGqrmDehua8mF8w==",
         "dependencies": {
           "@alloc/quick-lru": "@alloc/quick-lru@5.2.0",
           "arg": "arg@5.0.2",
@@ -898,6 +879,16 @@
           "rollup": "rollup@4.21.3"
         }
       },
+      "vite@5.4.6_@types+node@18.16.19": {
+        "integrity": "sha512-IeL5f8OO5nylsgzd9tq4qD2QqI0k2CQLGrWD0rCN0EQJZpBK5vJAx0I+GDkMOXxQX/OfFHMuLIx6ddAxGX/k+Q==",
+        "dependencies": {
+          "@types/node": "@types/node@18.16.19",
+          "esbuild": "esbuild@0.21.5",
+          "fsevents": "fsevents@2.3.3",
+          "postcss": "postcss@8.4.45",
+          "rollup": "rollup@4.21.3"
+        }
+      },
       "which@2.0.2": {
         "integrity": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
         "dependencies": {
@@ -930,12 +921,11 @@
   "workspace": {
     "dependencies": [
       "npm:autoprefixer@^10.4.20",
-      "npm:domco@^0.12.0",
-      "npm:hono@^4.6.1",
+      "npm:domco@^0.13.0",
       "npm:prettier-plugin-tailwindcss@^0.6.6",
       "npm:prettier@^3.3.3",
       "npm:tailwindcss@^3.4.11",
-      "npm:vite@^5.4.3"
+      "npm:vite@^5.4.6"
     ]
   }
 }

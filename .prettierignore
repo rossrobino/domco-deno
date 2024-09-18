@@ -1,8 +1,6 @@
 .DS_Store
 node_modules
 /dist
-.env
-.env.*
 package-lock.json
 pnpm-lock.yaml
 yarn.lock

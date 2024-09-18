@@ -9,18 +9,15 @@
 	},
 	"nodeModulesDir": true,
 	"imports": {
-		"domco": "npm:domco@^0.12.0",
-		"hono": "npm:hono@^4.6.1",
+		"domco": "npm:domco@^0.13.0",
 		"prettier": "npm:prettier@^3.3.3",
 		"prettier-plugin-tailwindcss": "npm:prettier-plugin-tailwindcss@^0.6.6",
 		"tailwindcss": "npm:tailwindcss@^3.4.11",
 		"autoprefixer": "npm:autoprefixer@^10.4.20",
-		"vite": "npm:vite@^5.4.3"
+		"vite": "npm:vite@^5.4.6"
 	},
 	"compilerOptions": {
 		"checkJs": true,
-		"jsx": "react-jsx",
-		"jsxImportSource": "hono/jsx",
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
